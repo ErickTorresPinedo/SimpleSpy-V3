@@ -1,6 +1,3 @@
---!native
---50/50 this breaks but it's a beta for a reason!
-
 if getgenv().SimpleSpyExecuted and type(getgenv().SimpleSpyShutdown) == "function" then
     getgenv().SimpleSpyShutdown()
 end
@@ -2330,3 +2327,4 @@ if configs.supersecretdevtoggle then
         NotSound:Play()
     end)
 end
+
